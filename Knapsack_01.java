@@ -9,8 +9,7 @@ public class Knapsack_01 {
     static int knapsack_01(int []wt, int []val, int n,int total_weight)
     {
         int a[][] = new int[n+1][total_weight+1];
-        for(int i=0; i < n; i++)
-            a[i][0] = 0;
+        
         
         for(int i=0; i <= n; i++)
         {
